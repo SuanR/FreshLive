@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MotherSet.master.cs" Inherits="FreshLiveUI.MotherSet" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="Scripts/jquery-1.4.js"></script>
+    <script src="Scripts/util.js"></script>
+    <link href="Content/common.css" rel="stylesheet" />
+    <link href="Content/switch_js.css" rel="stylesheet" />
+    <link href="Content/Cart.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="login_body">
+                <div class="login_tit">
+                    <div class="login_logo" style="float: left;">
+                        <a href="/default.aspx">
+                            <img src="/Images/logo.jpg" /></a>
+                    </div>
+                    <div id="loginstr"></div>
+                </div>
+
+                <div class="slider-box">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="login_bottom">
+                    <div class="login_bottom_l">
+                        <img src="/Images/login_bottom_l.jpg" />
+                    </div>
+                    <div class="login_bottom_r">
+                        <img src="/Images/login_bottom_r.jpg" />
+                    </div>
+                </div>
+                <div class="too_floor">
+                    <div class="too-floor_tel"></div>
+                    <div class="too-floor_about">
+                        <a target="_blank" href="#">关于我们</a>&#12288;|&#12288;
+            <a target="_blank" href="#">服务条款</a>&#12288;|&#12288;
+            <a target="_blank" href="#">友情链接</a>&#12288;|&#12288;
+            <a target="_blank" href="#">帮助中心</a>&#12288;|&#12288;
+           
+            <a target="_blank" href="/default.aspx">新鲜生活网</a>&#12288;|&#12288;
+                    </div>
+                    <div class="too-floor_copy">Copyright &copy; 2009-2012 新鲜生活 版权所有 鄂ICP证110405号 鄂ICP备19153411号</div>
+                </div>
+            </div>
+            <div id="ThirdAuth"></div>
+
+        </div>
+    </form>
+</body>
+</html>
